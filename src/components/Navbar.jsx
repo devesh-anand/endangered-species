@@ -1,4 +1,5 @@
 import React from 'react'
+import Rank from './Rank';
 
 const Navbar = () => {
 

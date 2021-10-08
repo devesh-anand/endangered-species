@@ -1,10 +1,4 @@
 
-#hello{
-    background: rgb(202, 202, 240);
-}
-#he{
-    background: url( https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1xXV5bAmu0mDQcXdXbzlxuFKgpNSZXN4WJg&usqp=CAU)    ;
-}
 .navbar {
     background-color: #00000091;
     color: white;
@@ -23,16 +17,8 @@
 }
 
 
-.link-active {
-    border-bottom: 2px solid rgba(0, 0, 0, 0.192);
-    border-radius: 0 0 10px 10px;
-}
-.nav-link:active {
-    font-size: 1.05rem;
-    color: black;
-    border: 1px solid black;
-    border-radius: 8px;
-}
+
+
 
 
 
