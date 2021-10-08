@@ -1,0 +1,56 @@
+#hello {
+    background: transparent;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    color: white;
+    /* font-weight: 900; */
+}
+
+#he {
+    background: rgba(255, 255, 255, 0.178);
+    backdrop-filter: blur(16px);
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    width: fit-content;
+    box-shadow: 0px 0px 13px -3px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0px 0px 13px -3px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 13px -3px rgba(0,0,0,0.5);
+}
+
+.donation-main {
+    width: 100vw;
+    height: 100vh;
+    background: url(./images/donation.svg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    background: #aee6dd;
+}
+
+.btn:hover {
+    background: #81e0d0;
+}
+
+#svg1-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#donation-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#amount {
+    width: 50%;
+}
