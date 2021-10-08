@@ -11,9 +11,9 @@ function App() {
 	return (
 		<>
 			<Navbar/>
-			<Slider/>
+			{/* <Slider/> */}
 			<Rank/>
-			<Donation/>
+			{/* <Donation/> */}
 		</>
 	);
 }

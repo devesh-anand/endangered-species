@@ -1,0 +1,52 @@
+.species-card {
+  width: 450px;
+  
+  background: rgba(0, 0, 0, 0.349);
+  backdrop-filter: blur(8px);
+  border-radius: 16px;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  margin: 10px 10px 20px 10px;
+}
+
+.species-img {
+  /* width: 100%; */
+}
+
+.species-img img {
+  width: 100%;
+}
+
+#species-rank {
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 10;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.808);
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.species-content {
+  background: transparent;
+  color: white;
+}
+
+
+.species-content h4 {
+  text-align: center;
+  color: white;
+  backdrop-filter: blur(8px);
+}
+
+.species-details p {
+  margin-left: 10px;
+  font-size: 1.2rem;
+}
