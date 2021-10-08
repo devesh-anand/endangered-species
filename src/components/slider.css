@@ -1,0 +1,15 @@
+.size {
+    height: 100vh;
+}
+
+/* .slider-wrap {
+    background-size: cover;
+} */
+
+img {
+    /* object-fit: contain; */
+    height: 100vh;
+    background-size: cover;
+    /* height: 100vh;
+    width: 100vw; */
+}
