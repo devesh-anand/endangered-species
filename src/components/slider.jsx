@@ -8,22 +8,22 @@ function slider() {
          <Carousel className="size" id="slider">
             <Carousel.Item className="slider-wrap">
                <img
-                  className="d-block"
-                  src="https://aldf.org/wp-content/uploads/2018/05/lamb-iStock-665494268-16x9-e1559777676675-1200x675.jpg"
+                  className="d-block carousel-img"
+                  src="https://cdn.britannica.com/39/75639-050-07D5CA0D/Bengal-tiger-cubs.jpg"
                   alt="First slide"
                />
                <Carousel.Caption>
-                  <h3>First slide label</h3>
+                  <h3>Bengal Tigers</h3>
                   <p>
                      Nulla vitae elit libero, a pharetra augue mollis interdum.
                   </p>
                </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-               <img className="d-block" src="https://media.wired.com/photos/593261cab8eb31692072f129/master/pass/85120553.jpg" alt="Second slide" />
+               <img className="d-block carousel-img" src="https://media.savetherhino.org/prod/uploads/2018/04/Indian-one-horned-rhino-with-calf-Kaziranga-India_SAToon.jpg" alt="Second slide" />
 
                <Carousel.Caption>
-                  <h3>Second slide label</h3>
+                  <h3>One Horned Rhino</h3>
                   <p>
                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   </p>
@@ -31,13 +31,13 @@ function slider() {
             </Carousel.Item>
             <Carousel.Item>
                <img
-                  className="d-block"
-                  src="https://www.iata.org/contentassets/d7c512eb9a704ba2a8056e3186a31921/cargo_live_animals_parrot.jpg?w=330&h=200&mode=crop&scale=both&v=20191213012337"
+                  className="d-block carousel-img"
+                  src="http://img2.chinadaily.com.cn/images/201906/20/5d0a88b9a3103dbf57a55793.jpeg"
                   alt="Third slide"
                />
 
                <Carousel.Caption>
-                  <h3>Third slide label</h3>
+                  <h3>The Asian Elephant</h3>
                   <p>
                      Praesent commodo cursus magna, vel scelerisque nisl
                      consectetur.
