@@ -11,7 +11,7 @@ function App() {
 		<>
 			<Navbar/>
 			<Slider/>
-			{/* <Rank/> */}
+			<Rank/>
 		</>
 	);
 }
