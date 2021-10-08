@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.rank-body {
+    width: 100vw;
+    height: 100vh;
+    background: url("images/rank.svg") no-repeat center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.rank-body h2 {
+    text-align: center;
+    color: white;
+}
+
+
