@@ -5,7 +5,7 @@ import "./slider.css";
 function slider() {
    return (
       <>
-         <Carousel className="size">
+         <Carousel className="size" id="slider">
             <Carousel.Item className="slider-wrap">
                <img
                   className="d-block"

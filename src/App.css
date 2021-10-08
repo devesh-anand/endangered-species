@@ -18,16 +18,8 @@
 }
 
 
-.link-active {
-    border-bottom: 2px solid rgba(0, 0, 0, 0.192);
-    border-radius: 0 0 10px 10px;
-}
-.nav-link:active {
-    font-size: 1.05rem;
-    color: black;
-    border: 1px solid black;
-    border-radius: 8px;
-}
+
+
 
 
 

@@ -8,6 +8,7 @@
     height: 100vh;
     background: url("images/rank.svg") no-repeat center;
     background-size: cover;
+    background-attachment: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,5 +19,7 @@
     text-align: center;
     color: white;
 }
+
+
 
 
