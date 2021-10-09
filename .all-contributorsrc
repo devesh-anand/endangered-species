@@ -5,6 +5,19 @@
   "imageSize": 100,
   "commit": false,
   "contributors": [
+  {
+      "login": "devesh-anand",
+      "name": "Devesh Anand Srivastava",
+      "avatar_url": "https://avatars.githubusercontent.com/u/30005922?v=4",
+      "profile": "https://github.com/devesh-anand",
+      "contributions": [
+        "design",
+        "code",
+        "test",
+        "maintenance",
+        "review"
+      ]
+    },
     {
       "login": "SciSaif",
       "name": "saifullah rahman",
@@ -24,8 +37,8 @@
       "contributions": [
         "design",
         "code"
-      ]
-    }
+        ]
+     }
   ],
   "contributorsPerLine": 7,
   "projectName": "endangered-species",
