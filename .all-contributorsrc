@@ -1,0 +1,26 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "SciSaif",
+      "name": "saifullah rahman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51053279?v=4",
+      "profile": "https://github.com/SciSaif",
+      "contributions": [
+        "design",
+        "code",
+        "test"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "endangered-species",
+  "projectOwner": "devesh-anand",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
