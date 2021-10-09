@@ -1,8 +1,9 @@
 [
     {
         "name": "Bengal tiger",
+        "s-name": "Panthera tigris tigris",
+        "population": "2,603 – 3,346",
         "sName": "Panthera tigris tigris",
-        "population": "2,603–3,346",
         "location": "Maharashtra, Madhya Pradesh, Rajasthan",
         "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Walking_tiger_female.jpg",
         "audio": "http://www.lairweb.org.nz/tiger/Tiger2a.wav"

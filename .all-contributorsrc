@@ -1,0 +1,49 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+  {
+      "login": "devesh-anand",
+      "name": "Devesh Anand Srivastava",
+      "avatar_url": "https://avatars.githubusercontent.com/u/30005922?v=4",
+      "profile": "https://github.com/devesh-anand",
+      "contributions": [
+        "design",
+        "code",
+        "test",
+        "maintenance",
+        "review"
+      ]
+    },
+    {
+      "login": "SciSaif",
+      "name": "saifullah rahman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51053279?v=4",
+      "profile": "https://github.com/SciSaif",
+      "contributions": [
+        "design",
+        "code",
+        "test"
+      ]
+    },
+    {
+      "login": "2devyank",
+      "name": "Devyank Nagpal",
+      "avatar_url": "https://avatars.githubusercontent.com/u/78840243?v=4",
+      "profile": "https://github.com/2devyank",
+      "contributions": [
+        "design",
+        "code"
+        ]
+     }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "endangered-species",
+  "projectOwner": "devesh-anand",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
