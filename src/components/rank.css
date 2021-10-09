@@ -10,16 +10,26 @@ body {
     background: url("images/rank.svg") no-repeat center;
     background-size: cover;
     background-attachment: fixed;
-    display: flex;
-    justify-content: center;
+    overflow: overlay;
     align-items: center;
-    padding: 10px;
+    /* padding: 10px; */
 }
 
 .rank-body h2 {
     text-align: center;
     color: white;
+    margin-top: 80px;
 }
+.species-list {
+    width: 95%;
+    /* background: white; */
+    margin: 0 auto;
+    padding-top: 20px;
+
+}
+
+
+
 
 
 
