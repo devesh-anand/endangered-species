@@ -6,7 +6,6 @@ import { useState } from "react";
 
 const Rank = () => {
 	const [sData, setSData] = useState(SpeciesData);
-	console.log(sData);
 
 	return (
 		<>

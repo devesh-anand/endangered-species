@@ -2,10 +2,26 @@ import React from 'react'
 import {Link} from 'react-router-dom';
 
 const Navbar = () => {
+	const state = {
+		rankstate: false,
+		homestate: false,
+		donatestate: false
+	};
+	const handleClick = () => {
+		const pathname = window.location.pathname;
+		if(pathname === "/rank"){
+			state.rankstate = true;
+		}else if(pathname === '/'){
+			state.homestate = true;
+		}else if(pathname === "/donate"){
+			state.donatestate = true;
+		}
+	};
 
-    return (
-        <>
-            <nav className="navbar navbar-expand-lg navbar-dark">
+	handleClick();
+	return (
+		<>
+			<nav className="navbar navbar-expand-lg navbar-dark">
 				<div className="container-fluid">
 				<Link to="/">
 					<a className="navbar-brand" href="/">
@@ -19,7 +35,7 @@ const Navbar = () => {
 						<ul className="navbar-nav">
 							<Link to="/">
 							<li className="nav-item">
-								<a className="nav-link active" id="home" aria-current="page" href="/">
+								<a className={`nav-link ${state.homestate ? "active" : " "}`} id="home" aria-current="page" href="/">
 									Home
 								</a>
 							</li>
@@ -27,7 +43,7 @@ const Navbar = () => {
 
 							<Link to="/rank">
 							<li className="nav-item">
-								<a className="nav-link" id="rank" href="/rank">
+								<a className={`nav-link ${state.rankstate ? "active" : " "}`} id="rank" href="/rank">
 									Rank
 								</a>
 							</li>
@@ -35,7 +51,7 @@ const Navbar = () => {
 
 							<Link to="/donate">
 							<li className="nav-item">
-								<a className="nav-link" id="donate" href="/donate">
+								<a className={`nav-link ${state.donatestate ? "active" : " "}`} id="donate" href="/donate">
 									Donate
 								</a>
 							</li>
@@ -44,8 +60,8 @@ const Navbar = () => {
 					</div>
 				</div>
 			</nav>
-        </>
-    )
-}
+		</>
+	);
+};
 
-export default Navbar
+export default Navbar;
