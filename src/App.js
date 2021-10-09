@@ -4,6 +4,7 @@ import "./App.css";
 import Navbar from './components/Navbar.jsx';
 import Slider from './components/slider';
 import Rank from './components/Rank';
+import About from "./components/About";
 import Donation from './components/Donation';
 
 
@@ -16,6 +17,7 @@ function App() {
 					<Route path="/" exact component={Slider} />
 					<Route exact path="/rank" component={Rank} />
 					<Route exact path="/donate" component={Donation} />
+					<Route exact path="/about" component={About} />
 				</Switch>
 			</Router>
 		</>

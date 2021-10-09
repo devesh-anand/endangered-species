@@ -1,0 +1,152 @@
+#About{
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    /* background: url("./Cessation.svg") no-repeat center; */
+}
+.col{
+    background: rgb(170, 170, 224);
+}
+.about-left-col{
+    flex-basis: 50%;
+}
+.about-left-col img{
+    width: 100%;
+}
+.about-right-col{
+    flex-basis: 50%;
+    text-align: right;
+}
+.about-text{
+    max-width: 500px;
+    margin-right: 100px;
+    display: inline-block;
+}
+.line-1{
+    height: 15px;
+    width: 15px;
+    background: rgb(223, 108, 108);
+    display: inline-block;
+}
+.line-2{
+    height: 1px;
+    width: 80px;
+    background: rgb(223, 108, 108);
+    display: inline-block;
+}
+.line-3{
+    height: 1px;
+    width: 60px;
+    background: rgb(223, 108, 108);
+    display: inline-block;
+}
+.line{
+    line-height: 8px;
+}   
+body {
+    background-color: #000
+}
+
+.card {
+    width: 350px;
+    background-color: #efefef;
+    /* border: none; */
+    cursor: pointer;
+    transition: all 0.5s
+}
+
+.image img {
+    transition: all 0.5s;
+  
+   
+}
+.red{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.card:hover .image img {
+    transform: scale(1.5)
+}
+
+.btn {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%
+}
+
+.name {
+    font-size: 22px;
+    font-weight: bold
+}
+
+.idd {
+    font-size: 14px;
+    font-weight: 600
+}
+
+.idd1 {
+    font-size: 12px
+}
+
+.number {
+    font-size: 22px;
+    font-weight: bold
+}
+
+.follow {
+    font-size: 12px;
+    font-weight: 500;
+    color: #444444
+}
+
+.btn1 {
+    height: 40px;
+    width: 150px;
+    border: none;
+    background-color: #000;
+    color: #aeaeae;
+    font-size: 15px
+}
+
+.text span {
+    font-size: 13px;
+    color: #545454;
+    font-weight: 500
+}
+
+.icons i {
+    font-size: 19px
+}
+
+hr .new1 {
+    border: 1px solid
+}
+
+.join {
+    font-size: 14px;
+    color: #a0a0a0;
+    font-weight: bold
+}
+
+.date {
+    background-color: #ccc
+}                   
+@media only screen and (max-width:770px){
+  
+    #About{
+        flex-direction: column;
+    }
+    .about-left-col {
+        flex-basis: 50%;
+    }
+    .about-right-col{
+        flex-basis: 100%;
+    }
+    .about-text{
+       margin: 50px 50px 0;
+       display: inline-block;
+    }
+  
+    
+}
