@@ -31,17 +31,17 @@ const Navbar = () => {
 					<div className="collapse navbar-collapse" id="navbarNav">
 						<ul className="navbar-nav">
 							<li className="nav-item">
-								<a className={`nav-link ${state.homestate ? "active" : " "}`} id="home" aria-current="page" href="/">
+								<a className={`nav-link ${state.homestate ? "active" : " "}`} id="home" onClick={()=>handleClick} aria-current="page" href="/">
 									Home
 								</a>
 							</li>
 							<li className="nav-item">
-								<a className={`nav-link ${state.rankstate ? "active" : " "}`} id="rank" href="/rank">
+								<a className={`nav-link ${state.rankstate ? "active" : " "}`} id="rank" onClick={()=>handleClick} href="/rank">
 									Rank
 								</a>
 							</li>
 							<li className="nav-item">
-								<a className={`nav-link ${state.donatestate ? "active" : " "}`} id="donate" href="/donate">
+								<a className={`nav-link ${state.donatestate ? "active" : " "}`} id="donate" onClick={()=>handleClick} href="/donate">
 									Donate
 								</a>
 							</li>
