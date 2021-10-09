@@ -1,9 +1,10 @@
-<<<<<<< HEAD
 # Protect Endangered animals of India:
 
 A project started under hackathon <a href="https://livethecode.tech/" target="_blank">Live the code</a>
-=======
 
+The goal of our project is simple. We list all endangered animals in India at one place, and give you, the user, the power to help the conservation of those species by donating.
+
+Where do we come in the donation process? We are simply the middlemen. Our job is to simply tranfer your donated money (we don't keep even a penny), to the respective organizations working for welfare of specific species.
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
@@ -23,4 +24,3 @@ A project started under hackathon <a href="https://livethecode.tech/" target="_b
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
->>>>>>> c5c07ee8656f6a507128e6897139f9195a40b417

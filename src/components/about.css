@@ -69,84 +69,60 @@ body {
     transform: scale(1.5)
 }
 
-.btn {
+/* .btn {
     height: 140px;
     width: 140px;
     border-radius: 50%
+} */
+
+body{
+    background:#DCDCDC;
+    /* margin-top:20px; */
+}
+.card-box {
+    padding: 20px;
+    border-radius: 3px;
+    margin-bottom: 30px;
+    background-color: #fff;
 }
 
-.name {
-    font-size: 22px;
-    font-weight: bold
+.social-links li a {
+    border-radius: 50%;
+    color: rgba(121, 121, 121, .8);
+    display: inline-block;
+    height: 30px;
+    line-height: 27px;
+    border: 2px solid rgba(121, 121, 121, .5);
+    text-align: center;
+    width: 30px
 }
 
-.idd {
-    font-size: 14px;
-    font-weight: 600
+.social-links li a:hover {
+    color: #797979;
+    border: 2px solid #797979
 }
-
-.idd1 {
-    font-size: 12px
+.thumb-lg {
+    height: 96px;
+    width: 88px;
 }
-
-.number {
-    font-size: 22px;
-    font-weight: bold
+.img-thumbnail {
+    padding: .25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    width: 98px;
+    height: 96px;
 }
-
-.follow {
-    font-size: 12px;
-    font-weight: 500;
-    color: #444444
+.text-pink {
+    color: #ff679b!important;
 }
-
-.btn1 {
-    height: 40px;
-    width: 150px;
-    border: none;
-    background-color: #000;
-    color: #aeaeae;
-    font-size: 15px
+.btn-rounded {
+    border-radius: 2em;
 }
-
-.text span {
-    font-size: 13px;
-    color: #545454;
-    font-weight: 500
+.text-muted {
+    color: #98a6ad!important;
 }
-
-.icons i {
-    font-size: 19px
-}
-
-hr .new1 {
-    border: 1px solid
-}
-
-.join {
-    font-size: 14px;
-    color: #a0a0a0;
-    font-weight: bold
-}
-
-.date {
-    background-color: #ccc
-}                   
-@media only screen and (max-width:770px){
-  
-    #About{
-        flex-direction: column;
-    }
-    .about-left-col {
-        flex-basis: 50%;
-    }
-    .about-right-col{
-        flex-basis: 100%;
-    }
-    .about-text{
-       margin: 50px 50px 0;
-       display: inline-block;
-    }
-  
-    
+h4 {
+    line-height: 22px;
+    font-size: 18px;
 }

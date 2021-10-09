@@ -56,6 +56,14 @@ const Navbar = () => {
 								</a>
 							</li>
 							</Link>
+
+							<Link to="/about">
+							<li className="nav-item">
+								<a className={`nav-link ${state.donatestate ? "active" : " "}`} id="donate" href="/about">
+									About
+								</a>
+							</li>
+							</Link>
 						</ul>
 					</div>
 				</div>

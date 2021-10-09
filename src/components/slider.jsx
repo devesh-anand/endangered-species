@@ -25,12 +25,9 @@ function slider() {
                         }}
                         startDelay={2000}
                         cursorColor="#3F3D56"
-                        multiText={[
-                           'About 3000 left,',
-                           'And still decreasing',
-                        ]}
-                        multiTextDelay={2000}
-                        typeSpeed={80}
+                        text="About 3000 left, and still decreasing"
+                        multiTextDelay={1000}
+                        typeSpeed={90}
                         />
                   </p>
                </Carousel.Caption>
