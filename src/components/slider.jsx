@@ -1,6 +1,7 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
 import "./slider.css";
+import TypeWriterEffect from 'react-typewriter-effect';
 
 function slider() {
    return (
@@ -13,19 +14,42 @@ function slider() {
                   alt="First slide"
                />
                <Carousel.Caption>
-                  <h3>Bengal Tigers</h3>
+                  <h1>Bengal Tigers</h1>
                   <p>
-                     Nulla vitae elit libero, a pharetra augue mollis interdum.
+                     <TypeWriterEffect
+                        textStyle={{
+                           fontFamily: 'Arial',
+                           color: 'white',
+                           fontWeight: 500,
+                           fontSize: '1.25rem',
+                        }}
+                        startDelay={2000}
+                        cursorColor="#3F3D56"
+                        text="About 3000 left, and still decreasing"
+                        multiTextDelay={1000}
+                        typeSpeed={90}
+                        />
                   </p>
                </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                <img className="d-block carousel-img" src="https://media.savetherhino.org/prod/uploads/2018/04/Indian-one-horned-rhino-with-calf-Kaziranga-India_SAToon.jpg" alt="Second slide" />
-
                <Carousel.Caption>
-                  <h3>One Horned Rhino</h3>
+                  <h1>One Horned Rhino</h1>
                   <p>
-                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                     <TypeWriterEffect
+                        style={"font-size: 16px;"}
+                        textStyle={{ 
+                              fontFamily: 'Arial',
+                              color: 'white',
+                              fontWeight: 500,
+                              fontSize: '1.25rem', 
+                           }}
+                        startDelay={300}
+                        cursorColor="black"
+                        text="Only 3,000 left, and still going down"
+                        typeSpeed={100}
+                     />
                   </p>
                </Carousel.Caption>
             </Carousel.Item>
@@ -37,10 +61,21 @@ function slider() {
                />
 
                <Carousel.Caption>
-                  <h3>The Asian Elephant</h3>
+                  <h1>The Asian Elephant</h1>
                   <p>
-                     Praesent commodo cursus magna, vel scelerisque nisl
-                     consectetur.
+                     <TypeWriterEffect
+                        style={"font-size: 16px;"}
+                        textStyle={{
+                           fontFamily: 'Arial',
+                           color: 'white',
+                           fontWeight: 500,
+                           fontSize: '1.25rem',
+                        }}
+                        startDelay={500}
+                        cursorColor="black"
+                        text="30,000 remaining, are poached for their ivory and skin"
+                        typeSpeed={150}
+                     />
                   </p>
                </Carousel.Caption>
             </Carousel.Item>
