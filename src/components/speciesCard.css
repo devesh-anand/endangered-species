@@ -1,13 +1,17 @@
 .species-card {
-  width: 450px;
+  /* width: 450px; */
+  max-width: 700px;
   
   background: rgba(0, 0, 0, 0.349);
   backdrop-filter: blur(8px);
   border-radius: 16px;
   border: 2px solid rgba(0, 0, 0, 0.5);
   overflow: hidden;
-  margin: 10px 10px 20px 10px;
+  margin: auto;
+  margin-bottom: 50px;
 }
+
+
 
 .species-img {
   /* width: 100%; */

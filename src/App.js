@@ -12,18 +12,12 @@ function App() {
 		<>
 			<Router>
 			<Navbar/>
-<<<<<<< HEAD
-			{/* <Slider/> */}
-			<Rank/>
-			{/* <Donation/> */}
-=======
 				<Switch>
 					<Route path="/" exact component={Slider} />
 					<Route exact path="/rank" component={Rank} />
 					<Route exact path="/donate" component={Donation} />
 				</Switch>
 			</Router>
->>>>>>> d531958b607864f9464cfa7ac1329e51509be636
 		</>
 	);
 }
