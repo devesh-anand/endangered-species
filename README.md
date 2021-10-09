@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -82,6 +82,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://github.com/SciSaif"><img src="https://avatars.githubusercontent.com/u/51053279?v=4?s=100" width="100px;" alt=""/><br /><sub><b>saifullah rahman</b></sub></a><br /><a href="#design-SciSaif" title="Design">🎨</a> <a href="https://github.com/devesh-anand/endangered-species/commits?author=SciSaif" title="Code">💻</a> <a href="https://github.com/devesh-anand/endangered-species/commits?author=SciSaif" title="Tests">⚠️</a></td>
+    <td align="center"><a href="https://github.com/2devyank"><img src="https://avatars.githubusercontent.com/u/78840243?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Devyank Nagpal</b></sub></a><br /><a href="#design-2devyank" title="Design">🎨</a> <a href="https://github.com/devesh-anand/endangered-species/commits?author=2devyank" title="Code">💻</a></td>
   </tr>
 </table>
 
