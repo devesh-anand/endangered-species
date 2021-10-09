@@ -3,6 +3,7 @@ import "./App.css";
 import Navbar from './components/Navbar.jsx';
 import Slider from './components/slider';
 import Rank from './components/Rank';
+import About from "./components/About";
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
 			<Navbar/>
 			<Slider/>
 			<Rank/>
+			<About/>
 		</>
 	);
 }
